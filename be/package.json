@@ -6,7 +6,7 @@
   "scripts": {
     "test": "tsc && jest ./dist --forceExit",
     "coverage": "tsc && jest ./dist --coverage",
-    "main": "tsc && node ./dist/src/main"
+    "main": "npm install && tsc && node ./dist/src/main"
   },
   "keywords": [],
   "author": "",
